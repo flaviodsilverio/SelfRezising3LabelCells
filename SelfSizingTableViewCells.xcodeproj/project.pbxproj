@@ -12,6 +12,8 @@
 		1B4788FF1E56F23C00031CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4788FD1E56F23C00031CDB /* Main.storyboard */; };
 		1B4789011E56F23C00031CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B4789001E56F23C00031CDB /* Assets.xcassets */; };
 		1B4789041E56F23C00031CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4789021E56F23C00031CDB /* LaunchScreen.storyboard */; };
+		1B47890D1E56F5DB00031CDB /* SelfSizingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B47890B1E56F5DB00031CDB /* SelfSizingCell.swift */; };
+		1B47890E1E56F5DB00031CDB /* SelfSizingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B47890C1E56F5DB00031CDB /* SelfSizingCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1B4789001E56F23C00031CDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B4789031E56F23C00031CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B4789051E56F23C00031CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B47890B1E56F5DB00031CDB /* SelfSizingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfSizingCell.swift; sourceTree = "<group>"; };
+		1B47890C1E56F5DB00031CDB /* SelfSizingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelfSizingCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				1B4789001E56F23C00031CDB /* Assets.xcassets */,
 				1B4789021E56F23C00031CDB /* LaunchScreen.storyboard */,
 				1B4789051E56F23C00031CDB /* Info.plist */,
+				1B47890B1E56F5DB00031CDB /* SelfSizingCell.swift */,
+				1B47890C1E56F5DB00031CDB /* SelfSizingCell.xib */,
 			);
 			path = SelfSizingTableViewCells;
 			sourceTree = "<group>";
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					1B4788F51E56F23C00031CDB = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4TU97ESE9C;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B4789041E56F23C00031CDB /* LaunchScreen.storyboard in Resources */,
+				1B47890E1E56F5DB00031CDB /* SelfSizingCell.xib in Resources */,
 				1B4789011E56F23C00031CDB /* Assets.xcassets in Resources */,
 				1B4788FF1E56F23C00031CDB /* Main.storyboard in Resources */,
 			);
@@ -138,6 +146,7 @@
 			files = (
 				1B4788FC1E56F23C00031CDB /* ViewController.swift in Sources */,
 				1B4788FA1E56F23C00031CDB /* AppDelegate.swift in Sources */,
+				1B47890D1E56F5DB00031CDB /* SelfSizingCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4TU97ESE9C;
 				INFOPLIST_FILE = SelfSizingTableViewCells/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = app.SelfSizingTableViewCells;
@@ -272,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4TU97ESE9C;
 				INFOPLIST_FILE = SelfSizingTableViewCells/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = app.SelfSizingTableViewCells;
